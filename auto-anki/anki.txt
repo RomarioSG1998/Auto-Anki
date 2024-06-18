@@ -1,0 +1,11 @@
+palavra/pergunta,resposta,imagem
+Direction, "We’re going to the park.", https://tse3.mm.bing.net/th/id/OIG2.chqFagCym00T5K3GCNiz?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Giving Something, "She gave a gift to him.",https://tse4.mm.bing.net/th/id/OIG3.IXELCWEU18SA54ugw6Rj?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Time Period, "I work from 9 am to 5 pm.", https://tse4.mm.bing.net/th/id/OIG4.XUzCEuUqvGP9WIsFgzkq?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Comparison, "He prefers tea to coffee.",https://tse3.mm.bing.net/th/id/OIG2.IHzzJGZrNR5sEW79LLd5?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Distance, "It’s 5 miles from my house to the city.",https://tse3.mm.bing.net/th/id/OIG2.3jGjf_O3ZeInYcpJbUTG?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Helping Someone, "I carried the bags for her.", https://tse4.mm.bing.net/th/id/OIG2.bpqFWBhqzDPR1z41bwqC?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Benefit, "Exercise is good for health.", https://tse3.mm.bing.net/th/id/OIG3.Xu5XqA5bQR80CMSxpd9V?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Duration, "We stayed there for a week.", https://tse1.mm.bing.net/th/id/OIG2.DoQBC9RuFx2uhLem3jd4?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Purpose (before noun), "This room is for meetings.", https://tse1.mm.bing.net/th/id/OIG2.BHOxNMwGpbtyXTFwJhCB?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Scheduled Events, "The meeting is set for tomorrow.", https://tse2.mm.bing.net/th/id/OIG3.sSKFQH.cAoTmR_.goqLU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
