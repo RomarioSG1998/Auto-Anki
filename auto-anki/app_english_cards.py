@@ -6,6 +6,12 @@ from io import BytesIO
 import os
 from time import sleep
 import uuid
+import win32clipboard
+from win32con import CF_DIB
+import io
+
+# Variável global para armazenar a imagem
+current_image = None
 
 def download_image(url):
     response = requests.get(url)
@@ -28,11 +34,22 @@ def generate_unique_filename():
 def upload_image(image_path):
     return image_path
 
+def image_to_clipboard(image):
+    output = io.BytesIO()
+    image.convert("RGB").save(output, "BMP")
+    data = output.getvalue()[14:]
+    output.close()
+    
+    win32clipboard.OpenClipboard()
+    win32clipboard.EmptyClipboard()
+    win32clipboard.SetClipboardData(CF_DIB, data)
+    win32clipboard.CloseClipboard()
+
 # 1- Clica em cadastro
 pyautogui.click(611, 115, duration=1)
 
 # 4- Extrair cada produto
-with open('anki.txt', 'r') as arquivo:
+with open('anki.txt', 'r', encoding='utf-8') as arquivo:
     # Ignorar a primeira linha (cabeçalhos)
     next(arquivo)
     for linha in arquivo:
@@ -51,11 +68,11 @@ with open('anki.txt', 'r') as arquivo:
 
         # Baixar a imagem
         try:
-            image = download_image(imagem_url)
-            image = convert_image_to_jpg(image)
+            current_image = download_image(imagem_url)
+            current_image = convert_image_to_jpg(current_image)
             unique_filename = generate_unique_filename()
             image_path = os.path.join(os.getcwd(), unique_filename)
-            save_image(image, image_path)
+            save_image(current_image, image_path)
 
             # Para fins de teste, retornamos o caminho do arquivo local
             new_image_url = upload_image(image_path)
@@ -69,28 +86,29 @@ with open('anki.txt', 'r') as arquivo:
         # Executar ações de pyautogui
         pyautogui.click(611, 115, duration=2)
         pyautogui.click(973, 228, duration=5)
-        pyautogui.write(pergunta)
+        #pyautogui.write(pergunta)
+        pyperclip.copy(pergunta + ' ')  
+        pyautogui.hotkey('ctrl', 'v')  
         
-        # clicar na imagem com o botao esuqerdo
-        pyautogui.click(197,426, duration=2)
-        pyautogui.click(197,426, duration=2, button='right')
-        pyautogui.click(282,586, duration=2)
-
-
+        # Clicar na imagem com o botão esquerdo
+        #pyautogui.click(197, 426, duration=2)
+        #pyautogui.click(197, 426, duration=2, button='right')
+        #pyautogui.click(282, 586, duration=2)
 
         pyautogui.click(1058, 308, duration=2)
-        pyautogui.write(resposta + ' ')  # Adicionando um espaço entre a resposta e a imagem
-        pyautogui.hotkey('ctrl', 'v')  # Simular Ctrl+V para colar o link da imagem
+        pyperclip.copy(resposta + ' ')  # Copiar a resposta para a área de transferência
+        pyautogui.hotkey('ctrl', 'v')  # Simular Ctrl+V para colar a resposta
 
+        # Colar a imagem após colar a resposta
+        if current_image:
+            image_to_clipboard(current_image)  # Copiar a imagem para a área de transferência
+            pyautogui.hotkey('ctrl', 'v')  # Simular Ctrl+V para colar a imagem
 
         pyautogui.click(977, 516, duration=2)
         pyautogui.click(1171, 523, duration=2)
 
-        pyautogui.click(197,426, duration=2, button='right')
-        pyautogui.click(270,661, duration=2)
-
-      
-       
+        pyautogui.click(197, 426, duration=2, button='right')
+        pyautogui.click(270, 661, duration=2)
         
         sleep(2)
 

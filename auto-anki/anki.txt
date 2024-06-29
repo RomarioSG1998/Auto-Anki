@@ -1,11 +1,13 @@
 palavra/pergunta,resposta,imagem
-Direction, "We’re going to the park.", https://tse3.mm.bing.net/th/id/OIG2.chqFagCym00T5K3GCNiz?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Giving Something, "She gave a gift to him.",https://tse4.mm.bing.net/th/id/OIG3.IXELCWEU18SA54ugw6Rj?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Time Period, "I work from 9 am to 5 pm.", https://tse4.mm.bing.net/th/id/OIG4.XUzCEuUqvGP9WIsFgzkq?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Comparison, "He prefers tea to coffee.",https://tse3.mm.bing.net/th/id/OIG2.IHzzJGZrNR5sEW79LLd5?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Distance, "It’s 5 miles from my house to the city.",https://tse3.mm.bing.net/th/id/OIG2.3jGjf_O3ZeInYcpJbUTG?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Helping Someone, "I carried the bags for her.", https://tse4.mm.bing.net/th/id/OIG2.bpqFWBhqzDPR1z41bwqC?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Benefit, "Exercise is good for health.", https://tse3.mm.bing.net/th/id/OIG3.Xu5XqA5bQR80CMSxpd9V?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Duration, "We stayed there for a week.", https://tse1.mm.bing.net/th/id/OIG2.DoQBC9RuFx2uhLem3jd4?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Purpose (before noun), "This room is for meetings.", https://tse1.mm.bing.net/th/id/OIG2.BHOxNMwGpbtyXTFwJhCB?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
-Scheduled Events, "The meeting is set for tomorrow.", https://tse2.mm.bing.net/th/id/OIG3.sSKFQH.cAoTmR_.goqLU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Uso de pronomes de tratamento formal, Vossa Excelência deveria vir, https://tse3.mm.bing.net/th?id=OIG1.z_fhkQrNNQlri_SaM3ys&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Pronomes interrogativos diretos, Quem é você?, https://tse1.mm.bing.net/th?id=OIG4.qJx1G.1SImN_tmxgPxGp&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Pronomes interrogativos indiretos, Ana quer saber quem é você, https://tse1.mm.bing.net/th?id=OIG1.ZY6r3hGGPs7EM_Zv3IR9&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Pronomes indefinidos variáveis, Algum nenhum todo, https://tse4.mm.bing.net/th?id=OIG3.70gRT0CQZ3d1K9yyHKCo&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Pronomes indefinidos invariáveis, Alguém ninguém tudo, https://tse2.mm.bing.net/th?id=OIG2.V8.MImbmkbiTNSmpSrC6&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Diferença entre "para mim" e "para eu", Para mim estudar é errado correto é Para eu estudar,https://tse1.mm.bing.net/th?id=OIG4.oYNsgjrCt_jnq7_fNKX9&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Exemplo de pronomes possessivos, Meu carro teu livro seu amigo, https://tse1.mm.bing.net/th?id=OIG2.GxiajImCLtGiQ7sN1fQ0&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Exemplo de pronomes demonstrativos, Este carro essa casa aquele parque, https://tse3.mm.bing.net/th?id=OIG1.4AkTb7g8j5VDt5HNom5k&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Uso de pronomes relativos em frases, O livro que eu li, https://tse1.mm.bing.net/th?id=OIG4.AMSOZS0jwW_nWq3DhKxg&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Pronomes de tratamento em cartas, Magnífico Reitor, https://tse3.mm.bing.net/th?id=OIG2.r7RhqRD9SeuEdtIw6bQm&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Uso de pronomes indefinidos, Alguém bateu na porta, https://tse2.mm.bing.net/th?id=OIG4.SGNGTdEUB_jpKXuRHH00&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
+Pronomes interrogativos em diálogo, Quanto custa?, https://tse4.mm.bing.net/th?id=OIG3.gdpxcR5jQ4UWEWdz.BMt&w=270&h=270&c=6&r=0&o=5&pid=ImgGn
